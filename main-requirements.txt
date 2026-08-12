@@ -1,0 +1,14 @@
+# Machine Learning
+pandas
+matplotlib
+scikit-learn
+numpy 
+
+# Google Adk 
+google-adk
+pydantic
+# google-cloud-aiplatform[adk,agent_engines]
+
+# extras
+python-dotenv
+python-docx>=0.8.11
