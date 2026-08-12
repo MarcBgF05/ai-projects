@@ -37,3 +37,8 @@ source .venv/bin/activate
 ```bash
 pip install -r main-requirements.txt
 ```
+
+4. for notebooks. 
+```pip install jupyter ipykernel
+python -m ipykernel install --user --name ai-projects-venv --display-name "Python (.venv ai-projects)"
+```
