@@ -31,3 +31,9 @@ On macOS:
 ```bash
 source .venv/bin/activate
 ```
+
+3. Install requirements.
+
+```bash
+pip install -r main-requirements.txt
+```
