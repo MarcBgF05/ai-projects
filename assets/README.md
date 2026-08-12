@@ -1,5 +1,2 @@
 # Assets
 
-## Objetivo
-
-Recursos extra.

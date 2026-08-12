@@ -1,11 +1,10 @@
 # Projects
 
-## Objetivo
+A collection of AI agent projects developed primarily using Google ADK.
 
-Agrupar los proyectos principales que vas a mostrar como evidencia de habilidades tecnicas y criterio de construccion.
+## Folder Structure
 
-## Como se organiza
+- `agents/` . It contains the structure of the differents projects developed. 
 
-- `agents/` para PoC centrados en agentes.
-- `ml/` para fundamentos e implementaciones de machine learning clasico.
-- `hybrid/` para proyectos que mezclen agentes, modelos, pipelines o automatizacion.
+
+> Coming soon: Examples using LangChain and LangGraph.

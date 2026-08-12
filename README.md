@@ -1,29 +1,33 @@
 # AI Projects
 
-Conjunto de proyectos relacionados al desarrollo de Agentes de Inteligencia Artificial, adicional de proyectos de Machine Learning. 
+A collection of projects related to the development of Artificial Intelligence Agents, along with Machine Learning projects.
 
-## Configuración de proyecto.
+## Project Setup
 
-### Requerimientos. 
-Tener instalado python + 3.11
+### Requirements
 
-### Entorno virtual
-1. Crear entorno virtual de python.
+Python 3.11 or later must be installed.
 
-Para Windows usar el comando: 
-```
+### Virtual Environment
+
+1. Create a Python virtual environment.
+
+For Windows, use the following command:
+
+```bash
 python -m venv .venv
 ```
 
-2. Activar el entorno virtual. 
+2. Activate the virtual environment.
 
-En windows. 
-```
+On Windows:
+
+```bash
 .venv\Scripts\Activate
 ```
 
-Para Mac 
-```
+On macOS:
+
+```bash
 source .venv/bin/activate
 ```
-
