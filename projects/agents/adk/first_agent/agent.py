@@ -1,15 +1,16 @@
 from google.adk.agents import Agent
 from google.adk.models.lite_llm import LiteLlm
 from google.genai import types
-from google.adk.tools import google_search
+#from google.adk.tools import google_search
 
 first_agent = Agent(
     name="first_agent",
-    description="Eres un agente de conocimiento general",
+    description="You are a general knowledge agent",
     model=LiteLlm(model="openrouter/nvidia/nemotron-3.5-lightning:free"),
-    instruction="Eres un agente de conocimiento general, responde a las pregutnas que el usuario te haga, constrasta la información" \
-    "a través de internet usando la tool `google_search`",
-    tools=[google_search],
+    instruction= """
+    You are a general knowledge agent, Answer the questions the user asks
+    """,
+ #   tools=[google_search], openrouter/nvidia/nemotron-3.5-lightning:free is not compatible with the google_search tool. 
     generate_content_config=types.GenerateContentConfig(
         temperature=0.7,
         max_output_tokens=250,
