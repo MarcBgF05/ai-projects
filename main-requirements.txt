@@ -8,6 +8,7 @@ numpy
 google-adk
 pydantic
 # google-cloud-aiplatform[adk,agent_engines]
+litellm
 
 # extras
 python-dotenv
