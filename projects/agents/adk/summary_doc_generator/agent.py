@@ -2,11 +2,11 @@ from google.adk.agents import Agent
 from google.adk.models.lite_llm import LiteLlm
 from google.genai import types
 
-summary_doc_generator = Agent(
-    name="",
-    description="",
-    model="",
-    instruction="",
+orchestrator_agent = Agent(
+    name="orchestrator_agent",
+    description="You are a main agent in charge of orchestrating and interacting with the user.",
+    model=LiteLlm(model="openrouter/nvidia/nemotron-3.5-lightning:free"),
+    instruction=" ",
     generate_content_config=types.GenerateContentConfig(
         temperature=0.7,
         max_output_tokens=250,
@@ -17,4 +17,4 @@ summary_doc_generator = Agent(
 
 )
 
-root_agent = summary_doc_generator
+root_agent = orchestrator_agent
