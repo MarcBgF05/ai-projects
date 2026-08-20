@@ -6,7 +6,12 @@ orchestrator_agent = Agent(
     name="orchestrator_agent",
     description="You are a main agent in charge of orchestrating and interacting with the user.",
     model=LiteLlm(model="openrouter/nvidia/nemotron-3.5-lightning:free"),
-    instruction=" ",
+    instruction="""
+    # Objetctive. 
+    To provide answers 
+    
+
+    """,
     generate_content_config=types.GenerateContentConfig(
         temperature=0.7,
         max_output_tokens=250,
