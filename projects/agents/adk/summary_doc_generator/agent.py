@@ -34,12 +34,12 @@ orchestrator_agent = Agent(
 
     """,
     generate_content_config=types.GenerateContentConfig(
-        temperature=0.7,
-        max_output_tokens=250,
-        http_options=types.HttpOptions(
-            retry_options=types.HttpRetryOptions(initial_delay=1, attempts=2)
-        )
-    ),
+            temperature=0.7,
+            max_output_tokens=250,
+            http_options=types.HttpOptions(
+                retry_options=types.HttpRetryOptions(initial_delay=1, attempts=2),
+            ),
+        ), 
     tools=[AgentTool(agent=sequential_flow)]
     
 
