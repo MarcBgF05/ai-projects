@@ -32,6 +32,8 @@ orchestrator_agent = Agent(
     You have access to:
     * Agent tool: `sequential_flow`
 
+    Note: Always Answer in Spanish. 
+
     """,
     generate_content_config=types.GenerateContentConfig(
             temperature=0.7,
