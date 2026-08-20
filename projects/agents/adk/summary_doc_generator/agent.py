@@ -25,12 +25,12 @@ orchestrator_agent = Agent(
             * If the user greets you, you must respond appropriately and ask about their problem or situation.
         2. When the user explains the problem, ask for more information or wait for confirmation that they have provided all the necessary information.
         3. Then, ask for personal information such as their name, phone number, and email address.
-        4. Then, you can use `sequential_agent` and return the answer it provides.
+        4. Then, you can use `sequential_flow` and return the answer it provides.
 
     # Tools.
 
     You have access to:
-    * Agent tool: `sequential_agent`
+    * Agent tool: `sequential_flow`
 
     """,
     generate_content_config=types.GenerateContentConfig(
