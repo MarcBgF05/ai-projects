@@ -7,8 +7,8 @@ from ...schemas.data import complete_data
 
 analyzer_agent = Agent(
     name="analyzer_agent",
-    description="",
-    model=LiteLlm(model=""),
+    description="You are in charge of analizyng the problem",
+    model=LiteLlm(model="openrouter/nvidia/nemotron-3.5-lightning:free"),
     instruction="""
 
     """,

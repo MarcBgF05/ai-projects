@@ -8,9 +8,11 @@ from ...schemas.data import complete_data
 
 writer_agent = Agent(
     name="writer_agent",
-    description="",
-    model=LiteLlm(model=""),
-    instruction="",
+    description="You are in charge of generating a report",
+    model=LiteLlm(model="openrouter/nvidia/nemotron-3.5-lightning:free"),
+    instruction="""
+
+    """,
     generate_content_config=types.GenerateContentConfig(
         temperature=0.7,
         max_output_tokens=250,
